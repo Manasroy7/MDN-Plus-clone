@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    /* box-sizing: border-box; */
+}
+
+#section {
+    background-color: rgb(45, 44, 44);
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 0;
+    border-bottom: #89888d solid 1px;
+
+}
+#section p {
+    /* font-family: inter; */
+    font-size: 1rem;
+}
+#section p a{
+    color: #ae8aff;
+}
+#section p a:hover {
+    text-decoration: #ae8aff underline;
+}
+
+.nav-main {
+    background-color: black;
+    padding: 22px 22px;
+    display: flex;
+    /* border: 1px solid wheat; */
+    justify-content: space-between;
+    border-bottom: #89888d solid 1px;
+    /* position: fixed; */
+    
+
+}
+
+
+.nav-main a {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.space {
+    padding: 15px;
+}
+
+.first-nav {
+    /* background-color: red; */
+    margin-left: 20px;
+    font-size: 1rem;
+} 
+.first-nav span{
+    color: rgb(231, 94, 117);
+}
+.first-nav sup {
+    font-size: 6px;
+    font-weight: 900;
+    color: black;
+    background-color: rgba(238, 106, 115, 0.866);
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+.first-nav a:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+.sec-nav {
+    /* background-color: chartreuse; */
+    margin-right: 20px;
+}
+.sec-nav a:hover {
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.sec-nav .box {
+    background-color: whitesmoke;
+    color: black;
+    padding: 7px 15px;
+    border-radius: 5px;
+}
+
+.nav-main div .left-text {
+    text-align: center;
+    /* margin-left: auto; */
+}
+
+#main-th {
+    background-color: rgb(21, 21, 21);
+    height: 335px;
+    text-align: center;
+    color: #cdcdcd;
+    font-size: 1.6rem;
+    font-weight: 900;
+    padding: 25px 0;
+}
+
+#main-th span {
+    text-decoration: palevioletred underline;
+    text-decoration-thickness: 0.15rem;
+}
+
+#main-th h3{
+    padding-top: 30px;
+    font-weight: 100;
+    color: #9d9ca1;
+}
+#btn{
+    padding-top: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    box-sizing: inherit;
+    display: inline;
+    /* padding-left: 80px; */
+    /* padding-right: 8px; */
+}
+#get{
+    padding: 12px 80px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+#get:hover{
+    background-color: rgb(45, 44, 44);
+    color: whitesmoke;
+}
+#what{
+    padding: 12px 80px;
+    border-radius: 8px;
+    border: 2px solid palevioletred;
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+
+
+}
+#what:hover{
+    border: 2px solid rgb(242, 171, 195);
+}
+
+/* ----------------------------------------------------------- */
+.block-odd {
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    width: 100%;
+}
+
+.block-odd .image img {
+    height: 320px;
+    width: 320px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-right: 240px;
+    border-radius: 10px 10px;
+    border: 3px solid white;
+}
+.text-odd {
+    color: white;
+    height: 320px;
+    width: 530px;
+    word-break: keep-all;
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 150px ;
+    line-break: normal;
+
+}
+.text-odd #ai {
+    font-weight: 500;
+    font-size: .8rem;
+    color: rgba(238, 106, 115, 0.866);
+}
+
+.text-odd h2{
+    font-size: 1.8rem;
+    font-weight: 450;
+    padding: 15px 0;
+
+}
+
+.text-odd button{
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+/* ------------------------------------------------ */
+
+.block-even {
+    background-color: rgb(21, 21, 21);
+    display: flex;
+    width: 100%;
+}
+.block-even .image img {
+    height: 320px;
+    width: 320px;
+    margin-top: 60px;
+    margin-bottom: 150px;
+    margin-left:  250px;
+    border-radius: 10px 10px;
+    border: 3px solid white;
+}
+.text-even {
+    color: white;
+    height: 30px;
+    width: 400px;
+    /* word-break: keep-all; */
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 150px;
+    line-break: normal;
+    margin-left: 150px;
+
+}
+.text-even #playground {
+    font-weight: 500;
+    font-size: .8rem;
+    color: rgba(238, 106, 115, 0.866);
+}
+
+.text-even h2{
+    font-size: 1.8rem;
+    font-weight: 450;
+    padding: 15px 0;
+
+}
+
+.text-even button{
+    padding: 5px 10px;
+    font-weight: 700;
+    margin-top: 45px;
+    border-radius: 5px;
+    border: 2px solid white;
+}
+/* ---------------------------------------- */
+#main-box{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    /* text-align: center; */
+    /* height: auto; */
+    /* margin-bottom: 30px; */
+    padding-bottom: 20px;
+}
+#main-box h2{
+    font-weight: 900;
+    text-align: center;
+}
+#main-box h2 a{
+    text-decoration: none;
+    color: rgba(238, 106, 115, 0.866);
+}
+
+#box{
+    background-color: rgba(19, 241, 19, 0.949);
+    height: 440px;
+    width: 320px;
+    /* align-items: center; */
+    margin: 20px auto;
+    border-radius: 15px;
+    text-align: center;
+    color: black;
+}
+#core{
+    background-color: rgba(32, 72, 32, 0.2);
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    /* text-align: center; */
+    padding: 10px;
+}
+#free{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#free button{
+    margin: 20px;
+    background-color: black;
+    color: white;
+    padding: 5px 70px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#links{
+    padding: 30px 0;
+}
+
+#links p{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#links a{
+    color: black;
+    padding-left: 10px;
+
+}
+#links sup{
+    background-color: goldenrod;
+    font-size: 8px;
+    padding: 3px;
+    border-radius: 20px;
+}
+#links a:hover{
+    text-decoration: none;
+}
+
+#links #ank{
+    font-size: .9em;
+    font-weight: 200;
+}
+#links #ank a:hover{
+    text-decoration: auto;
+}
+
+#knowus{
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+#knowus a{
+    text-decoration: none;
+    color: rgb(231, 94, 117);
+}
