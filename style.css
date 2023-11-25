@@ -332,3 +332,6 @@
     text-decoration: none;
     color: rgb(231, 94, 117);
 }
+.btn:hover{
+    background-color: #929292;
+}
